@@ -284,7 +284,7 @@ impl<T> Worker<T> {
         }
     }
 
-    /// Checks if the worker and the provided stealer are pointing to the same underlying queue.
+    /// Returns true if the given stealer was derived from this worker.
     ///
     /// # Examples
     ///
